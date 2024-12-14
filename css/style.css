@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+}
+#typing-effect {
+    border-right: 2px solid #fff; /* مؤشر الكتابة */
+    white-space: nowrap; /* منع النص من الالتفاف */
+    overflow: hidden; /* إخفاء النص الزائد */
+    display: inline-block; /* تنسيق خاص */
+    animation: blink 0.7s step-end infinite; /* تأثير الوميض */
+}
+
+@keyframes blink {
+    from { border-right-color: #fff; }
+    to { border-right-color: transparent; }
+}
+
